@@ -1,0 +1,244 @@
+[07-Jan-2017 08:27:36 America/Chicago] PHP Warning:  include(/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:36 America/Chicago] PHP Warning:  include(): Failed opening '/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:36 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/bdtowerc/public_html/TPA/system/core/compat/mbstring.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/CodeIgniter.php on line 284
+[07-Jan-2017 08:27:36 America/Chicago] PHP Warning:  include(/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:36 America/Chicago] PHP Warning:  include(): Failed opening '/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:36 America/Chicago] PHP Warning:  include(/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:36 America/Chicago] PHP Warning:  include(): Failed opening '/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:36 America/Chicago] PHP Warning:  include(/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:36 America/Chicago] PHP Warning:  include(): Failed opening '/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:41 America/Chicago] PHP Warning:  include(/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:41 America/Chicago] PHP Warning:  include(): Failed opening '/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:41 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/bdtowerc/public_html/TPA/system/core/compat/mbstring.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/CodeIgniter.php on line 284
+[07-Jan-2017 08:27:41 America/Chicago] PHP Warning:  include(/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:41 America/Chicago] PHP Warning:  include(): Failed opening '/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:41 America/Chicago] PHP Warning:  include(/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:41 America/Chicago] PHP Warning:  include(): Failed opening '/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:41 America/Chicago] PHP Warning:  include(/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:41 America/Chicago] PHP Warning:  include(): Failed opening '/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:44 America/Chicago] PHP Warning:  include(/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:44 America/Chicago] PHP Warning:  include(): Failed opening '/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:44 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/bdtowerc/public_html/TPA/system/core/compat/mbstring.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/CodeIgniter.php on line 284
+[07-Jan-2017 08:27:44 America/Chicago] PHP Warning:  include(/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:44 America/Chicago] PHP Warning:  include(): Failed opening '/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:44 America/Chicago] PHP Warning:  include(/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:44 America/Chicago] PHP Warning:  include(): Failed opening '/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:44 America/Chicago] PHP Warning:  include(/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 08:27:44 America/Chicago] PHP Warning:  include(): Failed opening '/home/bdtowerc/public_html/TPA/application/views/errors/html/error_php.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bdtowerc/public_html/TPA/system/core/Exceptions.php on line 269
+[07-Jan-2017 16:42:15 America/Chicago] PHP Fatal error:  Call to a member function load() on a non-object in /home/bdtowerc/public_html/TPA/application/models/MedicateMdl.php on line 76
+[22-Jan-2017 10:55:15 America/Chicago] PHP Fatal error:  Call to a member function set_title() on a non-object in /home/bdtowerc/public_html/TPA/application/controllers/Main.php on line 9
+[22-Jan-2017 10:55:23 America/Chicago] PHP Fatal error:  Call to a member function set_title() on a non-object in /home/bdtowerc/public_html/TPA/application/controllers/Main.php on line 9
+[21-Jun-2017 10:31:58 UTC] PHP Parse error:  syntax error, unexpected '$Comp' (T_VARIABLE), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 39
+[21-Jun-2017 11:15:27 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 98
+[21-Jun-2017 11:15:31 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 98
+[21-Jun-2017 11:15:36 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 98
+[21-Jun-2017 11:15:41 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 98
+[21-Jun-2017 11:15:54 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 98
+[21-Jun-2017 11:15:56 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 98
+[21-Jun-2017 11:15:58 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 98
+[22-Jun-2017 07:57:18 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 145
+[22-Jun-2017 07:57:29 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 145
+[22-Jun-2017 07:57:36 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 145
+[22-Jun-2017 07:57:44 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 145
+[22-Jun-2017 07:57:55 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 145
+[22-Jun-2017 07:57:58 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 145
+[22-Jun-2017 10:04:34 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 143
+[22-Jun-2017 10:07:08 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 138
+[02-Jul-2017 09:33:41 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 111
+[02-Jul-2017 10:21:49 UTC] PHP Fatal error:  Cannot use [] for reading in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 111
+[02-Jul-2017 10:21:50 UTC] PHP Fatal error:  Cannot use [] for reading in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 111
+[02-Jul-2017 10:22:44 UTC] PHP Fatal error:  Cannot use [] for reading in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 111
+[02-Jul-2017 10:22:48 UTC] PHP Fatal error:  Cannot use [] for reading in /home/medicate/public_html/TPA/application/models/MedicateMdl.php on line 111
+[18-Jul-2017 08:40:52 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 08:40:52 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 09:55:52 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 09:55:57 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 09:55:57 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 09:55:58 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 09:56:14 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 09:56:17 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 09:56:17 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 09:56:40 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 09:56:43 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 09:56:43 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:12:15 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:12:18 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:12:18 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:12:23 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:12:26 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:12:26 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:12:37 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:12:39 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:12:39 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:15:27 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:15:30 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:15:30 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:15:36 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:15:39 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:15:39 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:55:40 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:55:43 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 12:55:43 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 14:07:07 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 14:22:24 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 14:25:13 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 23:03:09 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[18-Jul-2017 23:03:10 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:44:52 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:44:55 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:44:55 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:45:04 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:45:07 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:45:07 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:53:27 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:53:40 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:53:58 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:54:00 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:54:02 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:54:03 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:54:04 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 08:54:05 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 11:40:34 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 11:40:45 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 11:40:50 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 11:45:32 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 11:45:48 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 11:45:52 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 11:56:08 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 11:56:35 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 11:56:47 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 11:57:01 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 12:07:02 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 12:07:27 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 12:07:36 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 12:48:26 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 12:48:29 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 12:48:29 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 13:56:24 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 13:56:27 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 13:56:28 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 13:56:30 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 13:56:30 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 13:56:34 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 13:56:37 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 13:56:37 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 13:58:57 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 13:59:01 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 13:59:05 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 13:59:08 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 13:59:11 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 19:23:08 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 19:23:21 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 19:23:22 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[19-Jul-2017 19:23:23 UTC] PHP Parse error:  syntax error, unexpected '$ViewFld' (T_VARIABLE) in /home/medicate/public_html/TPA/application/models/Desg.php on line 26
+[25-Jul-2017 07:22:11 UTC] PHP Fatal error:  Call to undefined method Upload::set_flashdata() in /home/medicate/public_html/TPA/application/controllers/Upload.php on line 25
+[25-Jul-2017 07:23:03 UTC] PHP Fatal error:  Call to undefined method Upload::set_flashdata() in /home/medicate/public_html/TPA/application/controllers/Upload.php on line 25
+[25-Jul-2017 07:23:05 UTC] PHP Fatal error:  Call to undefined method Upload::set_flashdata() in /home/medicate/public_html/TPA/application/controllers/Upload.php on line 25
+[19-Aug-2017 13:36:59 UTC] PHP Fatal error:  Call to undefined method Desg::LookUp() in /home/medicate/public_html/TPA/application/views/Clinics/test.php on line 14
+[20-Aug-2017 09:23:47 UTC] PHP Fatal error:  Call to a member function AjaxAction() on null in /home/medicate/public_html/TPA/application/views/Clinics/test.php on line 61
+[20-Aug-2017 09:23:50 UTC] PHP Fatal error:  Call to a member function AjaxAction() on null in /home/medicate/public_html/TPA/application/views/Clinics/test.php on line 61
+[20-Aug-2017 09:23:55 UTC] PHP Fatal error:  Class 'City_model' not found in /home/medicate/public_html/TPA/application/models/AjaxAction.php on line 14
+[20-Aug-2017 09:23:58 UTC] PHP Fatal error:  Class 'City_model' not found in /home/medicate/public_html/TPA/application/models/AjaxAction.php on line 14
+[20-Aug-2017 09:24:19 UTC] PHP Fatal error:  Class 'City_model' not found in /home/medicate/public_html/TPA/application/models/AjaxAction.php on line 14
+[20-Aug-2017 09:24:21 UTC] PHP Fatal error:  Class 'City_model' not found in /home/medicate/public_html/TPA/application/models/AjaxAction.php on line 14
+[20-Aug-2017 09:24:22 UTC] PHP Fatal error:  Class 'City_model' not found in /home/medicate/public_html/TPA/application/models/AjaxAction.php on line 14
+[20-Aug-2017 09:24:37 UTC] PHP Fatal error:  Class 'City_model' not found in /home/medicate/public_html/TPA/application/models/AjaxAction.php on line 14
+[20-Aug-2017 09:24:38 UTC] PHP Fatal error:  Class 'City_model' not found in /home/medicate/public_html/TPA/application/models/AjaxAction.php on line 14
+[20-Aug-2017 09:24:39 UTC] PHP Fatal error:  Class 'City_model' not found in /home/medicate/public_html/TPA/application/models/AjaxAction.php on line 14
+[20-Aug-2017 09:24:39 UTC] PHP Fatal error:  Class 'City_model' not found in /home/medicate/public_html/TPA/application/models/AjaxAction.php on line 14
+[20-Aug-2017 12:37:53 UTC] PHP Parse error:  syntax error, unexpected '$', expecting variable (T_VARIABLE) in /home/medicate/public_html/TPA/application/controllers/AjaxActionCon.php on line 21
+[20-Aug-2017 12:38:09 UTC] PHP Parse error:  syntax error, unexpected '$', expecting variable (T_VARIABLE) in /home/medicate/public_html/TPA/application/controllers/AjaxActionCon.php on line 21
+[07-Sep-2017 14:56:24 UTC] PHP Fatal error:  Call to undefined method Desg::Create_Form_With_DropDown_change_actionto() in /home/medicate/public_html/TPA/application/views/Services/ServicesandDiagnosis.php on line 21
+[07-Sep-2017 14:56:28 UTC] PHP Fatal error:  Call to undefined method Desg::Create_Form_With_DropDown_change_actionto() in /home/medicate/public_html/TPA/application/views/Services/ServicesandDiagnosis.php on line 21
+[13-Sep-2017 11:57:45 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2708
+[13-Sep-2017 13:31:29 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2255
+[13-Sep-2017 13:31:37 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2255
+[13-Sep-2017 16:48:26 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2733
+[16-Sep-2017 09:22:50 UTC] PHP Fatal error:  Call to a member function view() on null in /home/medicate/public_html/TPA/application/controllers/Claims.php on line 486
+[16-Sep-2017 13:16:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/medicate/public_html/TPA/application/models/Desg.php on line 2790
+[16-Sep-2017 13:16:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/medicate/public_html/TPA/application/models/Desg.php on line 2790
+[21-Sep-2017 11:47:16 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/medicate/public_html/TPA/application/models/Desg.php on line 199
+[21-Sep-2017 11:47:19 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/medicate/public_html/TPA/application/models/Desg.php on line 199
+[23-Sep-2017 10:33:21 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:23 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:25 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:27 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:29 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:31 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:33 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:35 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:37 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:39 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:41 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:43 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:45 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:47 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:49 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:51 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:53 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:55 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:57 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:33:59 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:01 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:03 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:05 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:07 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:09 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:11 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:13 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:15 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:17 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:19 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:21 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:23 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:25 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:27 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:29 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:31 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:33 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:35 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:37 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:39 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:41 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:43 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:45 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:47 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:49 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:51 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:53 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:55 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:57 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:34:59 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:35:01 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:35:03 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:35:05 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:35:07 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:35:09 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:35:11 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:35:13 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:35:15 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:35:17 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[23-Sep-2017 10:35:19 UTC] PHP Parse error:  syntax error, unexpected '" ).append( "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/medicate/public_html/TPA/application/models/Desg.php on line 2942
+[28-Sep-2017 09:18:37 UTC] PHP Fatal error:  Call to a member function AccessUser() on null in /home/medicate/public_html/TPA/application/controllers/Dashboard.php on line 37
+[28-Sep-2017 09:20:00 UTC] PHP Fatal error:  Call to a member function AccessUser() on null in /home/medicate/public_html/TPA/application/controllers/Dashboard.php on line 37
+[28-Sep-2017 09:21:23 UTC] PHP Fatal error:  Call to a member function model() on null in /home/medicate/public_html/TPA/application/controllers/Dashboard.php on line 38
+[28-Sep-2017 09:21:31 UTC] PHP Fatal error:  Call to a member function model() on null in /home/medicate/public_html/TPA/application/controllers/Dashboard.php on line 38
+[28-Sep-2017 09:23:36 UTC] PHP Fatal error:  Call to a member function model() on null in /home/medicate/public_html/TPA/application/controllers/Dashboard.php on line 38
+[28-Sep-2017 09:25:40 UTC] PHP Fatal error:  Call to a member function model() on null in /home/medicate/public_html/TPA/application/controllers/Dashboard.php on line 38
+[28-Sep-2017 10:10:02 UTC] PHP Fatal error:  Call to undefined method Desg::Graphs() in /home/medicate/public_html/TPA/application/views/Dashboard/Dashboard.php on line 12
+[30-Sep-2017 10:49:36 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/medicate/public_html/TPA/application/views/layout/Header/UserAccount.php on line 5
+[30-Sep-2017 10:49:45 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/medicate/public_html/TPA/application/views/layout/Header/UserAccount.php on line 5
+[02-Oct-2017 12:05:45 UTC] PHP Parse error:  syntax error, unexpected '"Degree"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/medicate/public_html/TPA/application/language/arabic/UI_lang.php on line 172
+[02-Oct-2017 12:05:52 UTC] PHP Parse error:  syntax error, unexpected '"Degree"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/medicate/public_html/TPA/application/language/arabic/UI_lang.php on line 172
+[02-Oct-2017 12:17:50 UTC] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/medicate/public_html/TPA/application/views/Beneficiary/AddBeneficiary.php on line 166
+[02-Oct-2017 12:17:59 UTC] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/medicate/public_html/TPA/application/views/Beneficiary/AddBeneficiary.php on line 166
+[04-Oct-2017 13:13:06 UTC] PHP Fatal error:  Can't use method return value in write context in /home/medicate/public_html/TPA/application/views/Companies/CompaniesData.php on line 54
+[22-Feb-2021 20:20:57 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/coresly/public_html/Apps/arc/index.php:294
+Stack trace:
+#0 {main}
+  thrown in /home/coresly/public_html/Apps/arc/index.php on line 294
+[22-Feb-2021 23:32:16 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/coresly/public_html/Apps/arc/application/views/Claims/CreateClaims.php on line 154
+[22-Feb-2021 23:43:45 UTC] PHP Fatal error:  Call to undefined method Tpa::ProductionCodeVaild() in /home/coresly/public_html/Apps/arc/application/controllers/ProcessControlDatabases.php on line 93
+[22-Feb-2021 23:43:49 UTC] PHP Fatal error:  Call to undefined method Tpa::ProductionCodeVaild() in /home/coresly/public_html/Apps/arc/application/controllers/ProcessControlDatabases.php on line 93
+[12-Jun-2021 00:30:44 UTC] PHP Fatal error:  Call to a member function InsertDB() on null in /home/coresly/public_html/Apps/arc/application/controllers/Claims.php on line 135
+[12-Jun-2021 00:30:55 UTC] PHP Fatal error:  Call to a member function InsertDB() on null in /home/coresly/public_html/Apps/arc/application/controllers/Claims.php on line 135
