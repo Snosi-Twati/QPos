@@ -27,155 +27,59 @@ class Settings extends CI_Controller{
 
                         );
     
-    public function getCities(){
+    public function Cities(){
         
         $this->Access->AccessUser();
         $this->load->model('Desg');
 //        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
         $this->load->library('Layouts');
                 $this->layouts->set_title('Home Page');
-                $this->layouts->view('Cities/CitiesData',$this->params,FALSE);
+                $this->layouts->view('Settings/Cities',$this->params,FALSE);
         
     }
     
-    public function getCompanies(){
-        
-        $this->Access->AccessUser();
-        $this->load->model('Desg');
-        $this->load->library('Layouts');
-                $this->layouts->set_title('Home Page');
-                $this->layouts->view('Companies/CompaniesData',$this->params,FALSE);
-    }
     
-    public function getCompanyType(){
-        
-        $this->Access->AccessUser();
-        $this->load->model('Desg');
-        $this->load->library('Layouts');
-                $this->layouts->set_title('Home Page');
-                $this->layouts->view('Companies/CompanyType',$this->params,FALSE);
-    }
-    
-    public function getCompaniesServicesPrices(){
+    public function Unit(){
         
         $this->Access->AccessUser();
         $this->load->model('Desg');
         $this->load->library('Layouts');
         $this->layouts->set_title('Home Page');
-        $this->layouts->view('Companies/CompaniesServicesPricesData',$this->params,FALSE);
+        $this->layouts->view('Settings/Unit',$this->params,FALSE);
     }
     
-    public function getCountries(){
+    public function Countries(){
         
         $this->Access->AccessUser();
         $this->load->model('Desg');
 //        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
         $this->load->library('Layouts');
                 $this->layouts->set_title('Home Page');
-                $this->layouts->view('Countries/CountriesData',$this->params,FALSE);
+                $this->layouts->view('Settings/Countries',$this->params,FALSE);
         
     }
     
-    public function getCurrencies(){
+    public function Currencies(){
         
         $this->Access->AccessUser();
         $this->load->model('Desg');
 //        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
         $this->load->library('Layouts');
                 $this->layouts->set_title('Home Page');
-                $this->layouts->view('Currencies/CurrenciesData',$this->params,FALSE);
+                $this->layouts->view('Settings/Currencies',$this->params,FALSE);
         
     }
     
-    public function getDepartments(){
+    public function Category(){
         
         $this->Access->AccessUser();
         $this->load->model('Desg');
 //        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
         $this->load->library('Layouts');
                 $this->layouts->set_title('Home Page');
-                $this->layouts->view('Departments/DepartmentsData',$this->params,FALSE);
+                $this->layouts->view('Settings/Category',$this->params,FALSE);
         
     }
     
-    public function getIssuesStatus(){
-        
-        $this->Access->AccessUser();
-        $this->load->model('Desg');
-        $this->load->library('Layouts');
-                $this->layouts->set_title('Home Page');
-                $this->layouts->view('IssuesStatus/IssuesStatus',$this->params,FALSE);
-        
-    }
     
-     public function getJobs(){
-        
-        $this->Access->AccessUser();
-        $this->load->model('Desg');
-//        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
-        $this->load->library('Layouts');
-                $this->layouts->set_title('Home Page');
-                $this->layouts->view('Jobs/JobsData',$this->params,FALSE);
-        
-    }
-    
-    public function getServices(){
-        
-        $this->Access->AccessUser();
-        $this->load->model('Desg');
-//        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
-        $this->load->library('Layouts');
-                $this->layouts->set_title('Home Page');
-                $this->layouts->view('Services/ServicesData',$this->params,FALSE);
-        
-    }
-    
-    public function getStages(){
-        
-        $this->Access->AccessUser();
-        $this->load->model('Desg');
-//        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
-        $this->load->library('Layouts');
-                $this->layouts->set_title('Home Page');
-                $this->layouts->view('Stages/StagesData',$this->params,FALSE);
-        
-    }
-    
-    public function getBanks(){
-        
-        $this->Access->AccessUser();
-        $this->load->model('Desg');
-        $this->layouts->set_title('Home Page');
-        $this->layouts->view('Banks/BanksData',$this->params,FALSE);
-    }
-    
-    public function getBanksBranches(){
-        
-        $this->Access->AccessUser();
-        $this->load->model('Desg');
-        $this->layouts->set_title('Home Page');
-        $this->layouts->view('Banks/BanksBranchesData',$this->params,FALSE);
-    }
-    
-     public function getNationalities(){
-        
-        $this->Access->AccessUser();
-        $this->load->model('Desg');
-//        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
-        $this->load->library('Layouts');
-                $this->layouts->set_title('Home Page');
-                $this->layouts->view('Nationalities/NationalitiesData',$this->params,FALSE);
-        
-    }
-    
-     public function getEmploymentType(){
-        
-        $this->Access->AccessUser();
-        $this->load->model('Desg');
-//        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
-        $this->load->library('Layouts');
-                $this->layouts->set_title('Home Page');
-                $this->layouts->view('Employees/EmploymentType',$this->params,FALSE);
-        
-    }
 }

@@ -39,194 +39,18 @@ class ProcessControlDatabases extends CI_Controller {
         }
     }
 
-    public function AddPOS() {
-
+    public function AddClaim() {
         $this->Access->AccessUser();
         $this->load->model("Pros");
+        //var_dump($this->session->userdata);
         $this->load->model("Processestransaction");
-        $data['create_date'] = date('Y-m-d H:i:s');
+        $data['create_by'] = $this->session->userdata('user_id');
+        $data['update_by'] = $this->session->userdata('user_id');
+        $data['CurrencyID'] = $this->session->userdata('user_id');
+        //$data['update_date'] = 'CURRENT_TIMESTAMP';
+        //$data['createdate'] = 'CURRENT_TIMESTAMP';
 
-        $data['last_update'] = date('Y-m-d H:i:s');
-        $data['create_user'] = $this->session->userdata('user_id');
-        $data['update_user'] = $this->session->userdata('user_id');
-        $data['destination_to'] = $this->session->userdata('user_id');
-        $data['stat'] = 0;
-        $datau['stat'] = 1;
-        $cond['stat'] = 0;
-
-        if ($this->input->get('customer_id') == '')
-            $data['customer_id'] = -1;
-
-        //var_dump($data);
-        $this->Processestransaction->UpDateDBMultiCond('bills', $datau, $cond);
-        $this->PassDataToValidationAndInsert('bills', $this->input->get(), false, $data);
-    }
-    
-    public function MoveToBill() {
-        $this->Access->AccessUser();
-        $this->load->model("Pros");
-        $this->load->model("Processestransaction");
-        $cond['destination_to'] = $this->session->userdata('user_id');
-        $cond['id'] = $this->input->get('id');
-        //$cond['stat'] = 1;
-        $data['stat'] = 0;
-        $data['last_update'] = date('Y-m-d H:i:s');
-//        var_dump($cond);
-        //echo date('Y-m-d H:i:s');
-        $datau['stat'] = 1;
-//        $datau['last_update'] = date('Y-m-d H:i:s');   
-        $condu['destination_to'] = $this->session->userdata('user_id');
-        $condu['stat'] = 0;
-        
-        $this->Processestransaction->UpDateDBMultiCond('bills', $datau, $condu);
-        $this->PassDataToValidationAndUpDate('bills', $data, $cond);
-    }
-    
-    public function Pay() {
-        $this->Access->AccessUser();
-        $this->load->model("Pros");
-        $this->load->model("Processestransaction");
-        
-        $cond['destination_to']                 =   $this->session->userdata('user_id');
-        $cond['stat']                           =   0;
-        //$cond['id']                             =   $this->input->get('id');
-        
-        $data['stat']                           =   200;
-        $data['amount']                         =   $this->input->get('amount');
-        
-        if($this->input->get('payment_methods_id')=='')
-            $data['payment_methods_id']         =   1;
-        
-        if($this->input->get('amount')=='')
-            $data['amount']         =   $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('bills', 'amount', $cond);;
-        
-        $data['last_update']                    =   date('Y-m-d H:i:s');
-        $frgn['payment_methods_id'][0]          =   'callback_payment_methods_allow';
-        
-        //var_dump($data);
-        
-        $this->PassDataToValidationAndUpDate('bills', $this->input->get(), $cond,false,$data,$frgn);
-    }
-    
-    function Max_debt() {
-        $cond['destination_to']         =   $this->session->userdata('user_id');
-        $cond['stat']                   =   0;
-        $customer_id=$this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('bills', 'customer_id', $cond);
-        unset($cond);
-        $cond['customer_id']=$customer_id;
-        $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('bills', 'sum(amount)', $cond);
-        return true;
-    }
-    
-    public function payment_methods_allow($str) {
-        
-        $this->form_validation->set_message('callback_payment_methods_allow');
-        $cond['destination_to']         =   $this->session->userdata('user_id');
-        $cond['stat']                   =   0;
-        //$cond['payment_methods_id']     =   $this->input->get('payment_methods_id');
-        $data=$this->Pros->Get_Filed_AQ_Multi_Cond_Ary('bills', 'amount,customer_id', $cond);
-
-        if(($data[0]['amount']!=$this->input->get('amount') && $this->input->get('amount')!='') && $data[0]['customer_id']==-1  )
-            return false;
-        
-        if( $data[0]['customer_id']!=-1 && $this->input->get('payment_methods_id') == 2 )
-            return $this->Max_debt();
-        
-        if( $data[0]['customer_id']!=-1 && $this->input->get('payment_methods_id') == 2 )
-            return $this->Max_debt();
-//        $data['price'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('prices', 'price1', $pc_cond);
-        
-    }
-    
-    public function AddItem() {
-
-        $this->Access->AccessUser();
-        $this->load->model("Pros");
-        $this->load->model("Processestransaction");
-        $data['create_date'] = date('Y-m-d H:i:s');
-        $data['create_user'] = $this->session->userdata('user_id');
-        $data['update_user'] = $this->session->userdata('user_id');
-        $data['cr_bill'] = 'bill';
-
-        $bill_cond['stat'] = 0;
-        $bill_cond['destination_to'] = $this->session->userdata('user_id');
-        $data['bill_no'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('bills', 'id', $bill_cond);
-
-        $pc_cond['product_id'] = $this->input->get('product_id');
-        $data['price'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('prices', 'price1', $pc_cond);
-        $data['total_items'] = $this->input->get('quantity') * $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('prices', 'price1', $pc_cond);
-
-        $this->PassDataToValidationAndInsert('purchase', $this->input->get(), false, $data);
-
-        $condbill['bill_no'] = $data['bill_no'];
-        $datau['amount'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('purchase', 'sum(price)', $condbill);
-        $datau['last_update'] = date('Y-m-d H:i:s');
-        unset($condbill);
-        $condbill['id'] = $data['bill_no'];
-        $this->Processestransaction->UpDateDBMultiCond('bills', $datau, $condbill);
-    }
-
-    public function addItemOne() {
-
-        $this->Access->AccessUser();
-        $this->load->model("Pros");
-        $this->load->model("Processestransaction");
-        $data['create_date'] = date('Y-m-d H:i:s');
-        $data['create_user'] = $this->session->userdata('user_id');
-        $data['update_user'] = $this->session->userdata('user_id');
-        $data['cr_bill'] = 'bill';
-
-        $data['id'] = $this->input->get('id');
-        $prc_cond['id'] = $this->input->get('id');
-        $product_id = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('purchase', 'product_id', $prc_cond);
-        $quantity = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('purchase', 'quantity', $prc_cond);
-        $bill_no = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('purchase', 'bill_no', $prc_cond);
-        $pc_cond['product_id'] = $product_id;
-        $data['price'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('prices', 'price1', $pc_cond);
-        $data['total_items'] = ($quantity + 1) * $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('prices', 'price1', $pc_cond);
-        $data['quantity'] = ($quantity + 1);
-        //var_dump($data);
-        $this->PassDataToValidationAndUpDate('purchase', $data, $prc_cond, $data);
-        //$this->PassDataToValidationAndInsert('purchase', $this->input->get(), false, $data);
-
-        $condbill['bill_no'] = $bill_no;
-        $datau['amount'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('purchase', 'sum(total_items)', $condbill);
-        $datau['last_update'] = date('Y-m-d H:i:s');
-        unset($condbill);
-        $condbill['id'] = $bill_no;
-        $this->Processestransaction->UpDateDBMultiCond('bills', $datau, $condbill);
-        //var_dump($datau);
-    }
-
-    public function delItemOne() {
-
-        $this->Access->AccessUser();
-        $this->load->model("Pros");
-        $this->load->model("Processestransaction");
-        $data['create_date'] = date('Y-m-d H:i:s');
-        $data['create_user'] = $this->session->userdata('user_id');
-        $data['update_user'] = $this->session->userdata('user_id');
-        $data['cr_bill'] = 'bill';
-
-        $data['id'] = $this->input->get('id');
-        $prc_cond['id'] = $this->input->get('id');
-        $product_id = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('purchase', 'product_id', $prc_cond);
-        $quantity = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('purchase', 'quantity', $prc_cond);
-        $bill_no = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('purchase', 'bill_no', $prc_cond);
-        $pc_cond['product_id'] = $product_id;
-        $data['price'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('prices', 'price1', $pc_cond);
-        $data['total_items'] = ($quantity - 1) * $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('prices', 'price1', $pc_cond);
-        $data['quantity'] = ($quantity - 1);
-        //var_dump($data);
-        $this->PassDataToValidationAndUpDate('purchase', $data, $prc_cond, $data);
-        //$this->PassDataToValidationAndInsert('purchase', $this->input->get(), false, $data);
-
-        $condbill['bill_no'] = $bill_no;
-        $datau['amount'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('purchase', 'sum(total_items)', $condbill);
-        $datau['last_update'] = date('Y-m-d H:i:s');
-        unset($condbill);
-        $condbill['id'] = $bill_no;
-        $this->Processestransaction->UpDateDBMultiCond('bills', $datau, $condbill);
+        $this->PassDataToValidationAndInsert($this->input->get('Tbl'), $this->input->get(), false, $data);
     }
 
     function ClaimIDVaild() {
@@ -434,7 +258,7 @@ class ProcessControlDatabases extends CI_Controller {
             }
         }
         //var_dump($data);
-        $IsValid = $this->IsValid($Tbl, $data, $Foreign);
+        $IsValid = $this->IsValid($Tbl, $Array, $Foreign);
         $this->load->model("Processestransaction");
         if ($IsValid === "0") {
             if ($this->Processestransaction->InsertDB($Tbl, $data)) {
@@ -453,7 +277,7 @@ class ProcessControlDatabases extends CI_Controller {
 
         $ary_fld = $this->Pros->Get_Name_Filed($Tbl);
         // var_dump($ary_fld);
-        //var_dump($data);
+        $IsValid = $this->IsValid($Tbl, $Array, $Foreign);
         foreach ($ary_fld as $key => $value) {
             if (isset($Array[$value->Field]))
                 $data[$value->Field] = $Array[$value->Field];
@@ -463,12 +287,9 @@ class ProcessControlDatabases extends CI_Controller {
                 if (strtolower($keyD) === "password")
                     $data[$keyD] = md5($valueD);
                 else
-                    $data[$keyD] = $valueD;
+                    $data[$keyD] = md5($valueD);
             }
         }
-        
-        
-        $IsValid = $this->IsValid($Tbl, $data, $Foreign);
         $this->load->model("Processestransaction");
         if ($IsValid === "0") {
             if ($this->Processestransaction->UpDateDBMultiCond($Tbl, $data, $Cond)) {

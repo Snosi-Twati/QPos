@@ -80,7 +80,7 @@ $db['default'] = array(
 	'password' => 'orgAZ123456az@@',
 	'database' => 'coresly_org',
 	'dbdriver' => 'mysqli',
-	'dbprefix' => 'arc_',
+	'dbprefix' => 'qp_',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,
