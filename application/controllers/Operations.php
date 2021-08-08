@@ -33,54 +33,93 @@ class Operations extends CI_Controller {
 //        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
         $this->load->library('Layouts');
         $this->layouts->set_title('Home Page');
-        $this->params['SuspendedBills']='Operations/SuspendedBills';
-        $this->params['Pay']='Operations/Pay';
-        $this->params['AddItems']='Operations/AddItems';
+        $this->params['SuspendedBills'] = 'Operations/SuspendedBills';
+        $this->params['Pay'] = 'Operations/Pay';
+        $this->params['AddItems'] = 'Operations/AddItems';
 //        $params['AddItems']=$this->load->view('Operations/AddItems','',true);
-        $this->params['ItemBill']='Operations/ListItems';
+        $this->params['ItemBill'] = 'Operations/ListItems';
         $this->layouts->view('Operations/POS', $this->params, FALSE);
     }
-    
+
+    public function Purchase() {
+        $this->Access->AccessUser();
+        $this->load->model('Desg');
+//        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
+        $this->load->library('Layouts');
+        $this->layouts->set_title('Home Page');
+        $this->params['SuspendedBillsCr'] = 'Operations/SuspendedBillsCr';
+        $this->params['Pay'] = 'Operations/Pay';
+        $this->params['AddItemsCr'] = 'Operations/AddItemsCr';
+//        $params['AddItems']=$this->load->view('Operations/AddItems','',true);
+        $this->params['ItemBillCr'] = 'Operations/ListItemsCr';
+        $this->layouts->view('Operations/Purchase', $this->params, FALSE);
+    }
+
     public function Pay() {
         $this->Access->AccessUser();
         $this->load->model('Desg');
 //        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
         $this->load->library('Layouts');
         $this->layouts->set_title('Home Page');
-        $this->params['SuspendedBills']='Operations/SuspendedBills';
-        $this->params['AddItems']='Operations/AddItems';
+        $this->params['SuspendedBills'] = 'Operations/SuspendedBills';
+        $this->params['AddItems'] = 'Operations/AddItems';
 //        $params['AddItems']=$this->load->view('Operations/AddItems','',true);
-        $this->params['ItemBill']='Operations/ListItems';
+        $this->params['ItemBill'] = 'Operations/ListItems';
         $this->layouts->view('Operations/POS', $this->params, FALSE);
     }
-    
+
     public function PurchaseBills() {
         $this->Access->AccessUser();
         $this->load->model('Desg');
 //        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
         $this->load->library('Layouts');
         $this->layouts->set_title('Home Page');
-        $params['SuspendedBills']=$this->load->view('Operations/SuspendedBills','',true);
-        $params['AddItems']=$this->load->view('Operations/AddItems','',true);
-        $params['ListItems']=$this->load->view('Operations/ListItems','',true);
-        
-        $this->load->view('Operations/PurchaseBills',$params);
+        $params['SuspendedBills'] = $this->load->view('Operations/SuspendedBills', '', true);
+        $params['AddItems'] = $this->load->view('Operations/AddItems', '', true);
+        $params['ListItems'] = $this->load->view('Operations/ListItems', '', true);
+
+        $this->load->view('Operations/PurchaseBills', $params);
     }
-    
-    
+
+    public function PurchaseBillsCr() {
+        $this->Access->AccessUser();
+        $this->load->model('Desg');
+//        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
+        $this->load->library('Layouts');
+        $this->layouts->set_title('Home Page');
+        $params['SuspendedBillsCr'] = $this->load->view('Operations/SuspendedBillsCr', '', true);
+        $params['AddItemsCr'] = $this->load->view('Operations/AddItemsCr', '', true);
+        $params['ListItemsCr'] = $this->load->view('Operations/ListItemsCr', '', true);
+
+        $this->load->view('Operations/PurchaseBillsCr', $params);
+    }
     
     public function ListItems() {
         $this->Access->AccessUser();
         $this->load->model('Desg');
         $this->load->view('Operations/ListItems');
     }
-    
+
     public function AddItems() {
         $this->Access->AccessUser();
         $this->load->model('Desg');
-        $params['ItemBill']= $this->load->view('Operations/ListItems','',true);
+        $params['ItemBill'] = $this->load->view('Operations/ListItems', '', true);
         //$params['ItemBill3']=55;
-        $this->load->view('Operations/AddItems',$params);
+        $this->load->view('Operations/AddItems', $params);
+    }
+    
+    public function ListItemsCr() {
+        $this->Access->AccessUser();
+        $this->load->model('Desg');
+        $this->load->view('Operations/ListItemsCr');
+    }
+
+    public function AddItemsCr() {
+        $this->Access->AccessUser();
+        $this->load->model('Desg');
+        $params['ItemBill'] = $this->load->view('Operations/ListItemsCr', '', true);
+        //$params['ItemBill3']=55;
+        $this->load->view('Operations/AddItemsCr', $params);
     }
 
 }

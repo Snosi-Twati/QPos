@@ -15,6 +15,13 @@
                     
                 </ul>
                 <a href="#">
+                  <i class="fa fa-building"></i> <span>مشتريات</span> <i class="fa fa-angle-left  pull-left"></i>
+                </a>
+                <ul class="treeview-menu " style="display: none;">
+                    <li><a href="<?PHP echo base_url(); ?>Operations/Purchase"><i class="fa fa-circle-o"></i> شراء منتجات</a></li>
+                     
+                </ul>
+                <a href="#">
                   <i class="fa fa-building"></i> <span>زبون / مورد</span> <i class="fa fa-angle-left  pull-left"></i>
                 </a>
                 <ul class="treeview-menu " style="display: none;">

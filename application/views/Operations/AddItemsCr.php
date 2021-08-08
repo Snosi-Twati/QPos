@@ -4,6 +4,7 @@
             <?PHP
             $bill_cond['stat'] = 0;
             $bill_cond['destination_to'] = $this->session->userdata('user_id');
+            $bill_cond['cr_bill'] = 'cr';
             $Cond['bill_no'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('bills', 'id', $bill_cond);
             $cnd['id'] = $Cond['bill_no'];
             ?>
@@ -26,7 +27,7 @@
             $hiddenField['create_user'] = $this->session->userdata('user_id');
             $hiddenField['update_user'] = $this->session->userdata('user_id');
             $hiddenField['stat'] = 0;
-            $hiddenField['cr_bill'] = 'bill';
+            $hiddenField['cr_bill'] = 'cr';
 //                $hiddenField['']=;
 //                $hiddenField['']=;
             unset($Fld);
@@ -34,9 +35,9 @@
             $Fld['quantity'] = 'quantity';
             $Fld['Expiration'] = 'Expiration';
             $Fld['warehouse_id'] = 'warehouse_id';
-            $DivLoad['id'] = '#ItemBill';
-            $DivLoad['url'] = 'Operations/ListItems';
-            $this->Desg->Create_From_Tabels_With_Ajax("purchase", false, false, "ProcessControlDatabases/AddItem", "اضافة عنصر +", $A, $Fld, false, false, $DivLoad);
+            $DivLoad['id'] = '#ItemBillCr';
+            $DivLoad['url'] = 'Operations/ListItemsCr';
+            $this->Desg->Create_From_Tabels_With_Ajax("purchase", false, false, "ProcessControlDatabases/AddItem", "اضافة عنصر +", $A, $Fld, false, $hiddenField, $DivLoad);
             ?>
 
         </div>

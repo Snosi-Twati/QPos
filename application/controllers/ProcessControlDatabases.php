@@ -39,6 +39,7 @@ class ProcessControlDatabases extends CI_Controller {
         }
     }
 
+
     public function AddPOS() {
 
         $this->Access->AccessUser();
@@ -53,13 +54,19 @@ class ProcessControlDatabases extends CI_Controller {
         $data['stat'] = 0;
         $datau['stat'] = 1;
         $cond['stat'] = 0;
-
-        if ($this->input->get('customer_id') == '')
+        $cond['cr_bill'] = $this->input->get('cr_bill');
+        if ($this->input->get('customer_id') == '' && $this->input->get('cr_bill')=='bill' )
             $data['customer_id'] = -1;
 
         //var_dump($data);
+        if($this->input->get('cr_bill')=='cr'){
+            $frgn['customer_id'][0]          =   'required';
+            //echo 111;
+        }else {
+            $frgn=false;
+        }
         $this->Processestransaction->UpDateDBMultiCond('bills', $datau, $cond);
-        $this->PassDataToValidationAndInsert('bills', $this->input->get(), false, $data);
+        $this->PassDataToValidationAndInsert('bills', $this->input->get(), false, $data,$frgn);
     }
     
     public function MoveToBill() {
@@ -146,10 +153,12 @@ class ProcessControlDatabases extends CI_Controller {
         $data['create_date'] = date('Y-m-d H:i:s');
         $data['create_user'] = $this->session->userdata('user_id');
         $data['update_user'] = $this->session->userdata('user_id');
-        $data['cr_bill'] = 'bill';
+        $data['cr_bill'] = $this->input->get('cr_bill');
 
         $bill_cond['stat'] = 0;
         $bill_cond['destination_to'] = $this->session->userdata('user_id');
+        $bill_cond['cr_bill'] = $this->input->get('cr_bill');
+
         $data['bill_no'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('bills', 'id', $bill_cond);
 
         $pc_cond['product_id'] = $this->input->get('product_id');
@@ -159,7 +168,7 @@ class ProcessControlDatabases extends CI_Controller {
         $this->PassDataToValidationAndInsert('purchase', $this->input->get(), false, $data);
 
         $condbill['bill_no'] = $data['bill_no'];
-        $datau['amount'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('purchase', 'sum(price)', $condbill);
+        $datau['amount'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('purchase', 'sum(price*quantity)', $condbill);
         $datau['last_update'] = date('Y-m-d H:i:s');
         unset($condbill);
         $condbill['id'] = $data['bill_no'];
