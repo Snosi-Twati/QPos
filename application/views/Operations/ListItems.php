@@ -6,6 +6,7 @@
                 <?PHP
                 $bill_cond['stat'] = 0;
                 $bill_cond['destination_to'] = $this->session->userdata('user_id');
+                $bill_cond['cr_bill'] = 'bill';
                 $Cond['bill_no'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('bills', 'id', $bill_cond);
                 $cnd['id'] = $Cond['bill_no'];
                 ?>
@@ -46,6 +47,7 @@
                 unset($Cond);
                 $Cond['last_update like'] = "" . date('Y-m-d') . "%";
                 $Cond['destination_to'] = $this->session->userdata('user_id');
+                $Cond['cr_bill'] = 'bill';
                 $fld['id'] = 'id';
                 $fld['customer_id'] = 'customer_id';
                 $fld['amount'] = 'amount';

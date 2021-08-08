@@ -11,7 +11,7 @@
                 $this->Desg->LookUps($A, 'unit_id', 'unit_name', 'id', 'unit', 0);
                 $this->Desg->LookUps($A, 'category_id', 'category_name', 'id', 'category', 0);
                 $vc_Cond['id !=']='-1';
-                $this->Desg->LookUpsWithCond($A, 'customer_id', 'full_name', 'id', 'vender_client',$vc_Cond, 0);
+                $this->Desg->LookUpsWithCond($A, 'customer_id', 'full_name', 'id', 'vender_client',$vc_Cond, "Search");
 
 //                $A=false;
                 //$hiddenField['customer_id'] = -1;

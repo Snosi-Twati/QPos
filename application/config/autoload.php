@@ -126,4 +126,4 @@ $autoload['language'] = array("UI");
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array('Access','Pros','Desg','ValidationData','MedicateMdl','AjaxAction','Tpa','Processestransaction');
+$autoload['model'] = array('Access','Pros','Desg','ValidationData','AjaxAction','Processestransaction');

@@ -4,6 +4,7 @@
             <?PHP
             $bill_cond['stat'] = 0;
             $bill_cond['destination_to'] = $this->session->userdata('user_id');
+            $bill_cond['cr_bill'] = 'bill';
             $Cond['bill_no'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('bills', 'id', $bill_cond);
             $cnd['id'] = $Cond['bill_no'];
             ?>
@@ -36,7 +37,7 @@
             $Fld['warehouse_id'] = 'warehouse_id';
             $DivLoad['id'] = '#ItemBill';
             $DivLoad['url'] = 'Operations/ListItems';
-            $this->Desg->Create_From_Tabels_With_Ajax("purchase", false, false, "ProcessControlDatabases/AddItem", "اضافة عنصر +", $A, $Fld, false, false, $DivLoad);
+            $this->Desg->Create_From_Tabels_With_Ajax("purchase", false, false, "ProcessControlDatabases/AddItem", "اضافة عنصر +", $A, $Fld, false, $hiddenField, $DivLoad);
             ?>
 
         </div>
