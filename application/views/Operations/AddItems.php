@@ -16,6 +16,9 @@
             $this->Desg->LookUps($A, 'product_id', 'product_name', 'id', 'product', 0);
             $this->Desg->LookUps($A, 'category_id', 'category_name', 'id', 'category', 0);
             $this->Desg->LookUps($A, 'cor_id', 'country_name', 'id', 'country', 0);
+            $this->Desg->LookUps($A, 'warehouse_id', 'warehouses_name', 'id', 'warehouses', 0);
+            
+            
 
 //                $A=false;
             $hiddenField['customer_id'] = -1;

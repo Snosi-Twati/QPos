@@ -29,18 +29,11 @@ class Warehouses extends CI_Controller {
 
     public function Warehouse() {
         $this->Access->AccessUser();
-
+        $this->load->model('Desg');
+//        $this->Desg->Create_From_Tabels("companies","","حفظ",0);
         $this->load->library('Layouts');
         $this->layouts->set_title('Home Page');
         $this->layouts->view('Warehouses/Warehouse', $this->params, FALSE);
-    }
-    
-    public function StockQuantities() {
-        $this->Access->AccessUser();
-
-        $this->load->library('Layouts');
-        $this->layouts->set_title('Home Page');
-        $this->layouts->view('Warehouses/StockQuantities', $this->params, FALSE);
     }
 
 }

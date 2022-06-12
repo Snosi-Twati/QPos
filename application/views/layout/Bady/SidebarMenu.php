@@ -40,7 +40,7 @@
                 </a>
                 <ul class="treeview-menu " style="display: none;">
                     <li><a href="<?PHP echo base_url(); ?>Warehouses/Warehouse"><i class="fa fa-circle-o"></i> مخزن </a></li>
-                    
+                    <li><a href="<?PHP echo base_url(); ?>Warehouses/StockQuantities"><i class="fa fa-circle-o"></i> كميات المخزون </a></li>
                 </ul> 
                 
                 

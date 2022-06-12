@@ -65,6 +65,7 @@ class ProcessControlDatabases extends CI_Controller {
         }else {
             $frgn=false;
         }
+        
         $this->Processestransaction->UpDateDBMultiCond('bills', $datau, $cond);
         $this->PassDataToValidationAndInsert('bills', $this->input->get(), false, $data,$frgn);
     }
@@ -164,7 +165,12 @@ class ProcessControlDatabases extends CI_Controller {
         $pc_cond['product_id'] = $this->input->get('product_id');
         $data['price'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('prices', 'price1', $pc_cond);
         $data['total_items'] = $this->input->get('quantity') * $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('prices', 'price1', $pc_cond);
-
+        
+        if($this->input->get('warehouse_id')==''){
+            $warehouses_cond['default_warehouses']=1;
+            $data['warehouse_id'] = $this->Pros->Get_JustValue_Filed_AQ_Multi_Cond('warehouses', 'id', $warehouses_cond);  
+        }
+        
         $this->PassDataToValidationAndInsert('purchase', $this->input->get(), false, $data);
 
         $condbill['bill_no'] = $data['bill_no'];
